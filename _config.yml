@@ -1,4 +1,13 @@
-permalink: pretty
+title:          "Unofficial GitHub Buttons"
+description:    "A set of static buttons with dynamic watch and fork counts for any repo hosted on GitHub."
+url:            "https://ghbtns.com"
+
+# Social
+authors:        "Mark Otto"
+author:
+  twitter:      "mdo"
+
+permalink:      pretty
 
 exclude:
 - ".sass-cache"
@@ -14,3 +23,6 @@ exclude:
 
 sass:
   style: compressed
+
+plugins:
+  - jekyll-seo-tag
